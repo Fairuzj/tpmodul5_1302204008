@@ -10,6 +10,10 @@ namespace tpmodul5_1302204008
     {
         static void Main(string[] args)
         {
+            SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract – 1302204008");
+            video.PrintVideoDetails();
+            video.IncreasePlayCount(28);
+            video.PrintVideoDetails();
         }
     }
 }
